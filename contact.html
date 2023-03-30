@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header-main">
+        <h1 class="title-page">Restaurant Le marcher</h1>
+        <nav class="nav-page">
+            <a href="index.html" title="Accueil">Accueil</a>
+            <a href="menu.html" title="Menu">Menu</a>
+            <a href="contact.html" title="Nous contacter">Nous contacter</a>
+        </nav>
+        <img src="asserts/entete.jpg" alt="Image Restaurant Le Marcher">
+    </header>
+    
+
+    <div>
+        <p>
+            Veuillez je vous prie remplir ce formulaire pour pouvoir nous envoyez votre demande.
+        </p>
+    </div>
+    <div>
+        <form action="" method="get" class="contact-form">
+            
+            <label for="subject">Sujet de votre demande: 
+                <select class="contact-form">
+                    
+                    <option value="0" selected>--</option>
+                    <option value="1">Reservation table</option>
+                    <option value="2">Question sur nos ingrédiants</option>
+                    <option value="3">Autre</option>
+                
+                </select>
+            </label>
+
+            <div class="contact-form">
+                <label for="name">Entrer votre nom<sup>*</sup>: </label>
+                <input type="text" name="name" id="name" placeholder="Camille Martin" required>
+            </div>
+
+            <div class="contact-form">
+                <label for="email">Entrer votre email<sup>*</sup>: </label>
+                <input type="email" name="email" id="email" placeholder="exemple@contact.com" required>
+            </div>
+
+           <fieldset>
+                <legend>Votre commentaire<sup>*</sup>:</legend>
+                <textarea name="commentaire" id="commentaire" placeholder="Entrez votre commentaire ici" required></textarea>
+            </fieldset>
+            
+            <div class="contact-form">
+                <input type="submit" value="Soumettre">
+            </div>
+ 
+        </form>
+      </div>
+
+      
+        
+      <footer class="footer">
+        <h1><a href="index.html">Revenir à l'acceuil</a></h1>
+        <table>
+            <tr>
+                <td>
+                    <address>
+                    <strong>Contact :</strong>
+                    <p>
+                        27, Place Jean-Jacques Chapou<br>
+                        46000 Cahors<br>
+                        Tél.: 05 65 65 27 27 <br>
+                        contact@restaurant-le-marche.fr<br>
+                    
+                    </p>
+                    </address>
+                </td>
+
+                <td>
+                    <h3>Adresse :</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458348.0528174005!2d-0.7982784375000148!3d44.44678019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ac8904c487b6fb%3A0xb4f404e144d21f25!2sRestaurant%20Le%20March%C3%A9!5e0!3m2!1sfr!2sfr!4v1670454002875!5m2!1sfr!2sfr" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </tr>
+        </table>
+        
+        <div>
+        <h4>Nous contacter :</h4>
+        <a href="contact.html"><button>Contact</button></a>       
+        <p class="copyright">© 2022 Sharrkyy.</p>     
+        </div>
+
+    </footer>
+      
+</body>
+</html>

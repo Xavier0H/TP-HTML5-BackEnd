@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.header-main {
+    background-color: grey;
+    padding: 15px;
+}
+
+.title-page {
+    margin-top: 0;
+}
+
+.nav-page {
+    margin-bottom: 15px;
+}
+
+.nav-page a {
+    padding: 15px;
+}
+
+.header-main img {
+    width: 100%;
+    height: auto;
+}
+
+.header-body {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.footer {
+    background-color: rgb(209, 180, 138);
+    margin-bottom: 0;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
